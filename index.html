@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Europski nogometni klubovi</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>Europski nogometni klubovi</h1>
+    <div id="container">
+      <div id="left-section">
+        <div id="map"></div>
+        <div id="club-info"></div>
+        <div id="charts">
+          <div id="pie-chart"></div>
+          <div id="bar-chart"></div>
+          <div id="line-chart"></div>
+        </div>
+      </div>
+
+      <div id="comparison-section">
+        <h2>Usporedba klubova</h2>
+        <div class="comparison-selects">
+          <select id="club1-select"></select>
+          <select id="club2-select"></select>
+          <button onclick="compareClubs()">Usporedi</button>
+        </div>
+        <div id="comparison-result"></div>
+        <div id="comparison-chart"></div>
+        <div id="filter-section">
+          <div id="filter-chart" style="margin-top: 20px"></div>
+          <h2>Filtriraj</h2>
+          <select id="filter-type">
+            <option value="none">-- Odaberi filter --</option>
+            <option value="most-valuable">Najvrijedniji klubovi</option>
+            <option value="most-expensive-player">Najskuplji igrači</option>
+            <option value="most-titles">Najviše naslova</option>
+          </select>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://d3js.org/d3.v7.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

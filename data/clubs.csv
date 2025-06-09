@@ -1,0 +1,17 @@
+city,country,club,championships,ucl_titles,top_scorers,goals,latitude,longitude,club_value,top_player,top_player_value
+Madrid,Spain,Real Madrid,36,15,Cristiano Ronaldo;Raul;Benzema,450;323;354,40.4168,-3.7038,1728,Jude Bellingham,180
+Barcelona,Spain,Barcelona,28,5,Messi;Suarez;Eto'o,672;198;130,41.3874,2.1686,1100,Lamine Yamal,180
+Manchester,England,Man City,10,1,Aguero;Sterling;De Bruyne,260;131;96,53.4808,-2.2426,1471,Erling Haaland,200
+London,England,Arsenal,13,0,Henry;Wright;Van Persie,228;185;132,51.5074,-0.1278,1300,Bukayo Saka,150
+Munich,Germany,Bayern Munich,34,6,Muller;Lewandowski;Rummenigge,365;344;217,48.1351,11.5820,1200,Jamal Musiala,140
+Turin,Italy,Juventus,36,2,Del Piero;Trezeguet;Baggio,290;171;115,45.0703,7.6869,950,Dusan Vlahovic,85
+Milan,Italy,Inter Milan,20,3,Zanetti;Milito;Icardi,85;75;124,45.4642,9.1900,900,Lautaro Martinez,105
+Paris,France,PSG,13,1,Cavani;Ibrahimovic;Neymar,200;156;118,48.8566,2.3522,1150,Kylian Mbappe,180
+Liverpool,England,Liverpool,20,6,Ian Rush;Gerrard;Salah,346;185;210,53.4308,-2.9608,1100,Mohamed Salah,75
+Dortmund,Germany,Borussia Dortmund,8,1,Zorc;Reus;Lewandowski,159;161;103,51.4926,7.4519,600,Jadon Sancho,60
+Marseille,France,Marseille,9,1,Skoblar;Papin;Gignac,100;134;77,43.2965,5.3698,350,Pierre-Emerick Aubameyang,15
+Lyon,France,Lyon,7,0,Lacazette;Benzema;Juninho,187;66;100,45.7578,4.8320,400,Bradley Barcola,45
+Rome,Italy,Roma,3,0,Totti;Pruzzo;Dzeko,307;106;85,41.9028,12.4964,450,Paulo Dybala,40
+Leverkusen,Germany,Bayer Leverkusen,1,0,Kießling;Völler;Schick,131;90;51,51.0382,7.0027,480,Florian Wirtz,110
+Naples,Italy,Napoli,4,0,Maradona;Hamsik;Insigne,115;121;122,40.8333,14.2500,600,Khvicha Kvaratskhelia,75
+Amsterdam,Netherlands,Ajax,36,4,Van Basten;Huntelaar;Tadic,128;158;105,52.3142,4.9410,400,Brian Brobbey,40

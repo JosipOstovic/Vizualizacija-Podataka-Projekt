@@ -1,0 +1,735 @@
+player,year,goals
+Cristiano Ronaldo,2003,20
+Cristiano Ronaldo,2004,20
+Cristiano Ronaldo,2005,20
+Cristiano Ronaldo,2006,20
+Cristiano Ronaldo,2007,20
+Cristiano Ronaldo,2008,20
+Cristiano Ronaldo,2009,20
+Cristiano Ronaldo,2010,20
+Cristiano Ronaldo,2011,20
+Cristiano Ronaldo,2012,20
+Cristiano Ronaldo,2013,20
+Cristiano Ronaldo,2014,20
+Cristiano Ronaldo,2015,20
+Cristiano Ronaldo,2016,20
+Cristiano Ronaldo,2017,20
+Cristiano Ronaldo,2018,20
+Cristiano Ronaldo,2019,20
+Cristiano Ronaldo,2020,20
+Cristiano Ronaldo,2021,20
+Cristiano Ronaldo,2022,20
+Cristiano Ronaldo,2023,20
+Cristiano Ronaldo,2024,30
+Raul,1994,19
+Raul,1995,19
+Raul,1996,19
+Raul,1997,19
+Raul,1998,19
+Raul,1999,19
+Raul,2000,19
+Raul,2001,19
+Raul,2002,19
+Raul,2003,19
+Raul,2004,19
+Raul,2005,19
+Raul,2006,19
+Raul,2007,19
+Raul,2008,19
+Raul,2009,19
+Raul,2010,19
+Benzema,2009,24
+Benzema,2010,24
+Benzema,2011,24
+Benzema,2012,24
+Benzema,2013,24
+Benzema,2014,24
+Benzema,2015,24
+Benzema,2016,24
+Benzema,2017,24
+Benzema,2018,24
+Benzema,2019,24
+Benzema,2020,24
+Benzema,2021,24
+Benzema,2022,24
+Benzema,2023,18
+Messi,2004,34
+Messi,2005,34
+Messi,2006,34
+Messi,2007,34
+Messi,2008,34
+Messi,2009,34
+Messi,2010,34
+Messi,2011,34
+Messi,2012,34
+Messi,2013,34
+Messi,2014,34
+Messi,2015,34
+Messi,2016,34
+Messi,2017,34
+Messi,2018,34
+Messi,2019,34
+Messi,2020,34
+Messi,2021,34
+Messi,2022,34
+Messi,2023,26
+Suarez,2007,12
+Suarez,2008,12
+Suarez,2009,12
+Suarez,2010,12
+Suarez,2011,12
+Suarez,2012,12
+Suarez,2013,12
+Suarez,2014,12
+Suarez,2015,12
+Suarez,2016,12
+Suarez,2017,12
+Suarez,2018,12
+Suarez,2019,12
+Suarez,2020,12
+Suarez,2021,12
+Suarez,2022,12
+Suarez,2023,6
+Eto'o,1998,8
+Eto'o,1999,8
+Eto'o,2000,8
+Eto'o,2001,8
+Eto'o,2002,8
+Eto'o,2003,8
+Eto'o,2004,8
+Eto'o,2005,8
+Eto'o,2006,8
+Eto'o,2007,8
+Eto'o,2008,8
+Eto'o,2009,8
+Eto'o,2010,8
+Eto'o,2011,8
+Eto'o,2012,8
+Eto'o,2013,8
+Eto'o,2014,2
+Aguero,2006,16
+Aguero,2007,16
+Aguero,2008,16
+Aguero,2009,16
+Aguero,2010,16
+Aguero,2011,16
+Aguero,2012,16
+Aguero,2013,16
+Aguero,2014,16
+Aguero,2015,16
+Aguero,2016,16
+Aguero,2017,16
+Aguero,2018,16
+Aguero,2019,16
+Aguero,2020,16
+Aguero,2021,20
+Sterling,2012,10
+Sterling,2013,10
+Sterling,2014,10
+Sterling,2015,10
+Sterling,2016,10
+Sterling,2017,10
+Sterling,2018,10
+Sterling,2019,10
+Sterling,2020,10
+Sterling,2021,10
+Sterling,2022,10
+Sterling,2023,10
+Sterling,2024,11
+De Bruyne,2010,6
+De Bruyne,2011,6
+De Bruyne,2012,6
+De Bruyne,2013,6
+De Bruyne,2014,6
+De Bruyne,2015,6
+De Bruyne,2016,6
+De Bruyne,2017,6
+De Bruyne,2018,6
+De Bruyne,2019,6
+De Bruyne,2020,6
+De Bruyne,2021,6
+De Bruyne,2022,6
+De Bruyne,2023,6
+De Bruyne,2024,12
+Henry,1994,16
+Henry,1995,16
+Henry,1996,16
+Henry,1997,16
+Henry,1998,16
+Henry,1999,16
+Henry,2000,16
+Henry,2001,16
+Henry,2002,16
+Henry,2003,16
+Henry,2004,16
+Henry,2005,16
+Henry,2006,16
+Henry,2007,20
+Wright,1985,13
+Wright,1986,13
+Wright,1987,13
+Wright,1988,13
+Wright,1989,13
+Wright,1990,13
+Wright,1991,13
+Wright,1992,13
+Wright,1993,13
+Wright,1994,13
+Wright,1995,13
+Wright,1996,13
+Wright,1997,13
+Wright,1998,16
+Van Persie,2002,9
+Van Persie,2003,9
+Van Persie,2004,9
+Van Persie,2005,9
+Van Persie,2006,9
+Van Persie,2007,9
+Van Persie,2008,9
+Van Persie,2009,9
+Van Persie,2010,9
+Van Persie,2011,9
+Van Persie,2012,9
+Van Persie,2013,9
+Van Persie,2014,9
+Van Persie,2015,15
+Muller,2008,21
+Muller,2009,21
+Muller,2010,21
+Muller,2011,21
+Muller,2012,21
+Muller,2013,21
+Muller,2014,21
+Muller,2015,21
+Muller,2016,21
+Muller,2017,21
+Muller,2018,21
+Muller,2019,21
+Muller,2020,21
+Muller,2021,21
+Muller,2022,21
+Muller,2023,21
+Muller,2024,29
+Lewandowski,2008,20
+Lewandowski,2009,20
+Lewandowski,2010,20
+Lewandowski,2011,20
+Lewandowski,2012,20
+Lewandowski,2013,20
+Lewandowski,2014,20
+Lewandowski,2015,20
+Lewandowski,2016,20
+Lewandowski,2017,20
+Lewandowski,2018,20
+Lewandowski,2019,20
+Lewandowski,2020,20
+Lewandowski,2021,20
+Lewandowski,2022,20
+Lewandowski,2023,20
+Lewandowski,2024,24
+Rummenigge,1974,20
+Rummenigge,1975,20
+Rummenigge,1976,20
+Rummenigge,1977,20
+Rummenigge,1978,20
+Rummenigge,1979,20
+Rummenigge,1980,20
+Rummenigge,1981,20
+Rummenigge,1982,20
+Rummenigge,1983,20
+Rummenigge,1984,17
+Del Piero,1993,14
+Del Piero,1994,14
+Del Piero,1995,14
+Del Piero,1996,14
+Del Piero,1997,14
+Del Piero,1998,14
+Del Piero,1999,14
+Del Piero,2000,14
+Del Piero,2001,14
+Del Piero,2002,14
+Del Piero,2003,14
+Del Piero,2004,14
+Del Piero,2005,14
+Del Piero,2006,14
+Del Piero,2007,14
+Del Piero,2008,14
+Del Piero,2009,14
+Del Piero,2010,14
+Del Piero,2011,14
+Del Piero,2012,24
+Trezeguet,1995,11
+Trezeguet,1996,11
+Trezeguet,1997,11
+Trezeguet,1998,11
+Trezeguet,1999,11
+Trezeguet,2000,11
+Trezeguet,2001,11
+Trezeguet,2002,11
+Trezeguet,2003,11
+Trezeguet,2004,11
+Trezeguet,2005,11
+Trezeguet,2006,11
+Trezeguet,2007,11
+Trezeguet,2008,11
+Trezeguet,2009,11
+Trezeguet,2010,6
+Baggio,1985,6
+Baggio,1986,6
+Baggio,1987,6
+Baggio,1988,6
+Baggio,1989,6
+Baggio,1990,6
+Baggio,1991,6
+Baggio,1992,6
+Baggio,1993,6
+Baggio,1994,6
+Baggio,1995,6
+Baggio,1996,6
+Baggio,1997,6
+Baggio,1998,6
+Baggio,1999,6
+Baggio,2000,6
+Baggio,2001,6
+Baggio,2002,6
+Baggio,2003,6
+Baggio,2004,1
+Zanetti,1995,4
+Zanetti,1996,4
+Zanetti,1997,4
+Zanetti,1998,4
+Zanetti,1999,4
+Zanetti,2000,4
+Zanetti,2001,4
+Zanetti,2002,4
+Zanetti,2003,4
+Zanetti,2004,4
+Zanetti,2005,4
+Zanetti,2006,4
+Zanetti,2007,4
+Zanetti,2008,4
+Zanetti,2009,4
+Zanetti,2010,4
+Zanetti,2011,4
+Zanetti,2012,4
+Zanetti,2013,4
+Zanetti,2014,9
+Milito,1999,5
+Milito,2000,5
+Milito,2001,5
+Milito,2002,5
+Milito,2003,5
+Milito,2004,5
+Milito,2005,5
+Milito,2006,5
+Milito,2007,5
+Milito,2008,5
+Milito,2009,5
+Milito,2010,5
+Milito,2011,5
+Milito,2012,10
+Icardi,2013,14
+Icardi,2014,14
+Icardi,2015,14
+Icardi,2016,14
+Icardi,2017,14
+Icardi,2018,14
+Icardi,2019,14
+Icardi,2020,14
+Icardi,2021,12
+Cavani,2007,12
+Cavani,2008,12
+Cavani,2009,12
+Cavani,2010,12
+Cavani,2011,12
+Cavani,2012,12
+Cavani,2013,12
+Cavani,2014,12
+Cavani,2015,12
+Cavani,2016,12
+Cavani,2017,12
+Cavani,2018,12
+Cavani,2019,12
+Cavani,2020,12
+Cavani,2021,12
+Cavani,2022,12
+Cavani,2023,8
+Ibrahimovic,2001,7
+Ibrahimovic,2002,7
+Ibrahimovic,2003,7
+Ibrahimovic,2004,7
+Ibrahimovic,2005,7
+Ibrahimovic,2006,7
+Ibrahimovic,2007,7
+Ibrahimovic,2008,7
+Ibrahimovic,2009,7
+Ibrahimovic,2010,7
+Ibrahimovic,2011,7
+Ibrahimovic,2012,7
+Ibrahimovic,2013,7
+Ibrahimovic,2014,7
+Ibrahimovic,2015,7
+Ibrahimovic,2016,7
+Ibrahimovic,2017,7
+Ibrahimovic,2018,7
+Ibrahimovic,2019,7
+Ibrahimovic,2020,7
+Ibrahimovic,2021,7
+Ibrahimovic,2022,7
+Ibrahimovic,2023,2
+Neymar,2010,8
+Neymar,2011,8
+Neymar,2012,8
+Neymar,2013,8
+Neymar,2014,8
+Neymar,2015,8
+Neymar,2016,8
+Neymar,2017,8
+Neymar,2018,8
+Neymar,2019,8
+Neymar,2020,8
+Neymar,2021,8
+Neymar,2022,8
+Neymar,2023,14
+Ian Rush,1979,19
+Ian Rush,1980,19
+Ian Rush,1981,19
+Ian Rush,1982,19
+Ian Rush,1983,19
+Ian Rush,1984,19
+Ian Rush,1985,19
+Ian Rush,1986,19
+Ian Rush,1987,19
+Ian Rush,1988,19
+Ian Rush,1989,19
+Ian Rush,1990,19
+Ian Rush,1991,19
+Ian Rush,1992,19
+Ian Rush,1993,19
+Ian Rush,1994,19
+Ian Rush,1995,19
+Ian Rush,1996,23
+Salah,2012,16
+Salah,2013,16
+Salah,2014,16
+Salah,2015,16
+Salah,2016,16
+Salah,2017,16
+Salah,2018,16
+Salah,2019,16
+Salah,2020,16
+Salah,2021,16
+Salah,2022,16
+Salah,2023,16
+Salah,2024,18
+Gerrard,1998,10
+Gerrard,1999,10
+Gerrard,2000,10
+Gerrard,2001,10
+Gerrard,2002,10
+Gerrard,2003,10
+Gerrard,2004,10
+Gerrard,2005,10
+Gerrard,2006,10
+Gerrard,2007,10
+Gerrard,2008,10
+Gerrard,2009,10
+Gerrard,2010,10
+Gerrard,2011,10
+Gerrard,2012,10
+Gerrard,2013,10
+Gerrard,2014,10
+Gerrard,2015,15
+Lewandowski (BVB),2010,21
+Lewandowski (BVB),2011,21
+Lewandowski (BVB),2012,21
+Lewandowski (BVB),2013,21
+Lewandowski (BVB),2014,19
+Reus,2009,10
+Reus,2010,10
+Reus,2011,10
+Reus,2012,10
+Reus,2013,10
+Reus,2014,10
+Reus,2015,10
+Reus,2016,10
+Reus,2017,10
+Reus,2018,10
+Reus,2019,10
+Reus,2020,10
+Reus,2021,10
+Reus,2022,10
+Reus,2023,10
+Reus,2024,11
+Aubameyang,2011,11
+Aubameyang,2012,11
+Aubameyang,2013,11
+Aubameyang,2014,11
+Aubameyang,2015,11
+Aubameyang,2016,11
+Aubameyang,2017,11
+Aubameyang,2018,11
+Aubameyang,2019,11
+Aubameyang,2020,11
+Aubameyang,2021,11
+Aubameyang,2022,11
+Aubameyang,2023,9
+Papin,1984,17
+Papin,1985,17
+Papin,1986,17
+Papin,1987,17
+Papin,1988,17
+Papin,1989,17
+Papin,1990,17
+Papin,1991,17
+Papin,1992,17
+Papin,1993,17
+Papin,1994,12
+Payet,2005,4
+Payet,2006,4
+Payet,2007,4
+Payet,2008,4
+Payet,2009,4
+Payet,2010,4
+Payet,2011,4
+Payet,2012,4
+Payet,2013,4
+Payet,2014,4
+Payet,2015,4
+Payet,2016,4
+Payet,2017,4
+Payet,2018,4
+Payet,2019,4
+Payet,2020,4
+Payet,2021,4
+Payet,2022,4
+Payet,2023,6
+Gignac,2004,6
+Gignac,2005,6
+Gignac,2006,6
+Gignac,2007,6
+Gignac,2008,6
+Gignac,2009,6
+Gignac,2010,6
+Gignac,2011,6
+Gignac,2012,6
+Gignac,2013,6
+Gignac,2014,6
+Gignac,2015,11
+Lacazette,2010,9
+Lacazette,2011,9
+Lacazette,2012,9
+Lacazette,2013,9
+Lacazette,2014,9
+Lacazette,2015,9
+Lacazette,2016,9
+Lacazette,2017,9
+Lacazette,2018,9
+Lacazette,2019,9
+Lacazette,2020,9
+Lacazette,2021,9
+Lacazette,2022,9
+Lacazette,2023,9
+Lacazette,2024,3
+Juninho,1995,7
+Juninho,1996,7
+Juninho,1997,7
+Juninho,1998,7
+Juninho,1999,7
+Juninho,2000,7
+Juninho,2001,7
+Juninho,2002,7
+Juninho,2003,7
+Juninho,2004,7
+Juninho,2005,7
+Juninho,2006,7
+Juninho,2007,7
+Juninho,2008,7
+Juninho,2009,2
+Benzema (Lyon),2005,13
+Benzema (Lyon),2006,13
+Benzema (Lyon),2007,13
+Benzema (Lyon),2008,13
+Benzema (Lyon),2009,14
+Totti,1993,12
+Totti,1994,12
+Totti,1995,12
+Totti,1996,12
+Totti,1997,12
+Totti,1998,12
+Totti,1999,12
+Totti,2000,12
+Totti,2001,12
+Totti,2002,12
+Totti,2003,12
+Totti,2004,12
+Totti,2005,12
+Totti,2006,12
+Totti,2007,12
+Totti,2008,12
+Totti,2009,12
+Totti,2010,12
+Totti,2011,12
+Totti,2012,12
+Totti,2013,12
+Totti,2014,12
+Totti,2015,12
+Totti,2016,12
+Totti,2017,19
+Dzeko,2005,4
+Dzeko,2006,4
+Dzeko,2007,4
+Dzeko,2008,4
+Dzeko,2009,4
+Dzeko,2010,4
+Dzeko,2011,4
+Dzeko,2012,4
+Dzeko,2013,4
+Dzeko,2014,4
+Dzeko,2015,4
+Dzeko,2016,4
+Dzeko,2017,4
+Dzeko,2018,4
+Dzeko,2019,4
+Dzeko,2020,4
+Dzeko,2021,4
+Dzeko,2022,4
+Dzeko,2023,4
+Dzeko,2024,9
+Montella,1996,8
+Montella,1997,8
+Montella,1998,8
+Montella,1999,8
+Montella,2000,8
+Montella,2001,8
+Montella,2002,8
+Montella,2003,8
+Montella,2004,8
+Montella,2005,8
+Montella,2006,8
+Montella,2007,14
+Volland,2010,5
+Volland,2011,5
+Volland,2012,5
+Volland,2013,5
+Volland,2014,5
+Volland,2015,5
+Volland,2016,5
+Volland,2017,5
+Volland,2018,5
+Volland,2019,5
+Volland,2020,5
+Volland,2021,5
+Volland,2022,2
+Kiessling,2003,8
+Kiessling,2004,8
+Kiessling,2005,8
+Kiessling,2006,8
+Kiessling,2007,8
+Kiessling,2008,8
+Kiessling,2009,8
+Kiessling,2010,8
+Kiessling,2011,8
+Kiessling,2012,8
+Kiessling,2013,8
+Kiessling,2014,8
+Kiessling,2015,8
+Kiessling,2016,8
+Kiessling,2017,8
+Kiessling,2018,11
+Schneider,1992,3
+Schneider,1993,3
+Schneider,1994,3
+Schneider,1995,3
+Schneider,1996,3
+Schneider,1997,3
+Schneider,1998,3
+Schneider,1999,3
+Schneider,2000,3
+Schneider,2001,3
+Schneider,2002,3
+Schneider,2003,3
+Schneider,2004,3
+Schneider,2005,3
+Schneider,2006,3
+Schneider,2007,3
+Schneider,2008,4
+Mertens,2011,11
+Mertens,2012,11
+Mertens,2013,11
+Mertens,2014,11
+Mertens,2015,11
+Mertens,2016,11
+Mertens,2017,11
+Mertens,2018,11
+Mertens,2019,11
+Mertens,2020,11
+Mertens,2021,11
+Mertens,2022,11
+Mertens,2023,16
+Hamsik,2004,8
+Hamsik,2005,8
+Hamsik,2006,8
+Hamsik,2007,8
+Hamsik,2008,8
+Hamsik,2009,8
+Hamsik,2010,8
+Hamsik,2011,8
+Hamsik,2012,8
+Hamsik,2013,8
+Hamsik,2014,8
+Hamsik,2015,8
+Hamsik,2016,8
+Hamsik,2017,8
+Hamsik,2018,8
+Hamsik,2019,1
+Cavani (Napoli),2010,26
+Cavani (Napoli),2011,26
+Cavani (Napoli),2012,26
+Cavani (Napoli),2013,26
+Huntelaar,2002,8
+Huntelaar,2003,8
+Huntelaar,2004,8
+Huntelaar,2005,8
+Huntelaar,2006,8
+Huntelaar,2007,8
+Huntelaar,2008,8
+Huntelaar,2009,8
+Huntelaar,2010,8
+Huntelaar,2011,8
+Huntelaar,2012,8
+Huntelaar,2013,8
+Huntelaar,2014,8
+Huntelaar,2015,8
+Huntelaar,2016,8
+Huntelaar,2017,8
+Huntelaar,2018,8
+Huntelaar,2019,8
+Huntelaar,2020,8
+Huntelaar,2021,6
+van Basten,1981,9
+van Basten,1982,9
+van Basten,1983,9
+van Basten,1984,9
+van Basten,1985,9
+van Basten,1986,9
+van Basten,1987,9
+van Basten,1988,9
+van Basten,1989,9
+van Basten,1990,9
+van Basten,1991,9
+van Basten,1992,9
+van Basten,1993,9
+van Basten,1994,9
+van Basten,1995,2
+Kluivert,1994,11
+Kluivert,1995,11
+Kluivert,1996,11
+Kluivert,1997,11
+Kluivert,1998,11
+Kluivert,1999,11
+Kluivert,2000,11
+Kluivert,2001,11
+Kluivert,2002,11
+Kluivert,2003,11
+Kluivert,2004,12

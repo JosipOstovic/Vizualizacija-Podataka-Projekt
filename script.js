@@ -9,13 +9,14 @@ const svg = d3
 
 const g = svg.append("g");
 
-// Tooltip
+// Tooltip za prikaz informacija (inspirirano tooltip primjerima sa Observable i bl.ocks.org)
 const tooltip = d3
   .select("body")
   .append("div")
   .attr("class", "tooltip")
   .style("opacity", 0);
 
+//Omogućavanje zoomiranja i pomicanja karte (preuzeto s: https://observablehq.com/@d3/zoomable-map)
 const zoom = d3
   .zoom()
   .scaleExtent([1, 8])
@@ -25,6 +26,7 @@ const zoom = d3
 
 svg.call(zoom);
 
+// Projekcija karte Europe (geoMercator) – temeljeno na D3 geo primjerima sa observablehq.com/@d3
 const projection = d3
   .geoMercator()
   .center([13, 52])
@@ -43,6 +45,8 @@ Promise.all([
   clubData = loadedClubData;
   goalData = loadedGoalData;
   console.log("Učitani podaci o golovima:", goalData);
+  // Dohvaćanje i prikaz geoJSON podataka karte Europe
+  // Ovaj pristup korišten u gotovo svim D3 geo map primjerima na Observable (posebno kod interaktivnih prikaza Europe)
   g.selectAll("path")
     .data(geoData.features)
     .enter()
@@ -81,7 +85,8 @@ Promise.all([
       "https://upload.wikimedia.org/wikipedia/de/f/f7/Bayer_Leverkusen_Logo.svg",
     Roma: "https://upload.wikimedia.org/wikipedia/en/f/f7/AS_Roma_logo_%282017%29.svg",
   };
-
+  // Prikaz logotipa klubova na mapi pomoću <image> elemenata
+  // Slično rješenje korišteno u nekim sport vizualizacijama na bl.ocks.org (custom simboli/ikone nad geoMap)
   g.selectAll("image")
     .data(clubData)
     .enter()
@@ -105,6 +110,7 @@ Promise.all([
       );
     })
     .on("mouseover", (event, d) => {
+      // Tooltip efekt inspiriran klasičnim D3 primjerima s Observable (hover informacije iznad ikona)
       d3.select(event.currentTarget)
         .transition()
         .duration(200)
@@ -415,6 +421,7 @@ function showClubChartsOnly(d) {
   });
 }
 
+// Crtanje pie chart-a
 function drawPieChart(data) {
   d3.select("#pie-chart").selectAll("*").remove();
   const width = 300,
@@ -462,6 +469,7 @@ function drawPieChart(data) {
     .style("font-size", "12px");
 }
 
+// Crtanje bar chart-a – inspiracija iz: https://observablehq.com/@d3/bar-chart
 function drawBarChart(data) {
   d3.select("#bar-chart").selectAll("*").remove();
   const width = 400,
@@ -486,7 +494,7 @@ function drawBarChart(data) {
     .range([height - margin.bottom, margin.top]);
 
   const color = d3.scaleOrdinal(d3.schemeSet2);
-
+  // Dodavanje stupaca i animacija rasta visine
   svg
     .selectAll("rect")
     .data(data)
@@ -513,6 +521,7 @@ function drawBarChart(data) {
     .call(d3.axisLeft(y));
 }
 
+// Crtanje line chart-a (više linija) – inspirirano primjerom: https://observablehq.com/@d3/multi-line-chart
 function drawLineChartWithAnimation(datasets) {
   d3.select("#line-chart").selectAll("*").remove();
   const width = 450,
@@ -558,7 +567,7 @@ function drawLineChartWithAnimation(datasets) {
     .attr("stroke-width", 2)
     .attr("d", (d) => line(d.values))
     .attr("stroke-dasharray", function () {
-      return this.getTotalLength();
+      return this.getTotalLength(); // efekt crtanja linije
     })
     .attr("stroke-dashoffset", function () {
       return this.getTotalLength();
@@ -566,7 +575,7 @@ function drawLineChartWithAnimation(datasets) {
     .transition()
     .duration(1500)
     .ease(d3.easeCubic)
-    .attr("stroke-dashoffset", 0);
+    .attr("stroke-dashoffset", 0); // animirano iscrtavanje linije
 
   svg
     .append("g")
@@ -691,6 +700,7 @@ function drawFilterChart(data, type) {
       Roma: "https://upload.wikimedia.org/wikipedia/en/f/f7/AS_Roma_logo_%282017%29.svg",
     };
 
+    // Filter bar chart – dodatak logotipa kluba iznad stupaca (prilagođeni prikaz)
     svg
       .selectAll("image")
       .data(data)

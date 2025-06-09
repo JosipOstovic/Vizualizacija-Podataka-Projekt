@@ -31,13 +31,13 @@
 
 #charts {
   visibility: hidden;
-  flex-direction: row; /* Ensure horizontal layout */
+  flex-direction: row;
   gap: 20px;
   position: static;
   min-height: 300px;
-  width: 100%; /* Use full available width */
-  display: flex; /* Explicitly set to flex */
-  flex-wrap: nowrap; /* Prevent wrapping */
+  width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
 }
 
 #charts.visible {
@@ -45,11 +45,11 @@
 }
 
 #charts > div {
-  flex: 0 0 33.33%; /* Fixed width for each chart, approximately one-third */
+  flex: 0 0 33.33%;
   height: 300px;
   background-color: #fff;
   border: 1px solid #ddd;
-  box-sizing: border-box; /* Include padding and border in width calculation */
+  box-sizing: border-box;
 }
 
 .club-card {
